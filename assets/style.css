@@ -1,0 +1,153 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1;
+  margin: 5%;
+  background-color: rgb(236, 213, 255);
+}
+
+.jumbotron {
+  text-align: center;
+  background-color: transparent;
+  color: black;
+  border-radius: 0;
+  border-bottom: 10px solid black;
+}
+
+.past {
+  background-color: #d3d3d3;
+  color: rgb(0, 0, 0);
+}
+
+.present {
+  background-color: #ff6961;
+  color: white;
+}
+
+.future {
+  background-color: #77dd77;
+  color: white;
+}
+
+.row {
+  white-space: pre-wrap;
+  height: 80px;
+  border-top: 1px solid white;
+
+}
+
+/*styles the contnet within the hour container*/
+#hour {
+  background-color: #ffffff;
+  color: #000000;
+  border-top: 1px solid #000000;
+  border-left: 1px solid #000000;
+  border-bottom: 1px solid #000000;
+  border-radius: 20px 0 0 20px;
+
+}
+
+.description {
+  white-space: pre-wrap;
+}
+
+.wrapper{
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  outline: none;
+}
+
+/*aligns flex box boxes*/
+.flex-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5px
+}
+
+/*global for all the flexbox settings under jumbotron*/
+.box {
+  min-width: 100px;
+  height: 100px;
+  color: gray;
+  display: flex;
+  
+}
+
+/*handles the flex box layout containing the hour-to-hour display*/
+.one {
+  text-align: center;
+  flex-grow: 0.25;
+  flex-shrink: 1;
+  align-items: center;
+  font-size: 34px;
+  max-width: 220.5px;
+}
+
+.two {
+  /*specifies grow rate*/
+  flex-grow: 1;
+  
+}
+
+/*controls the save tab flex property and */
+.three {
+  /*centers save icon*/
+  text-align: center;
+  /*specifies grow rate*/
+  flex-grow: .125;
+}
+
+/*tells the only flex box in the container to take up 100% of the container*/
+.flex-child {
+  /*specifies grow rate*/
+  flex-grow: 1;
+
+}
+
+/*sets style of the save tab. does not style the icon within.*/
+#saveBtn {
+  color: white;
+  background-image: url(https://img.icons8.com/ios-glyphs/344/save--v1.png);
+  background-size: 35%;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 0px 20px 20px 0px;
+  padding-left: 25px;
+  padding-right: 25px;
+  border: solid 2px black;
+  background-color: aqua;
+}
+
+#saveBtn i:hover {
+  font-size: 20px;
+  transition: all 0.3s ease-in-out;
+}
+
+#saveBtn:hover {
+  color: white;
+  background-image: url(https://img.icons8.com/ios-glyphs/344/save--v1.png);
+  background-size: 35%;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 0px 20px 20px 0px;
+  padding-left: 25px;
+  padding-right: 25px;
+  border: solid 2px black;
+  background-color: aqua;
+  transform: scale(.95);
+  transition: 250ms;
+}
+
+#saveBtn:active {
+  background-color: rgb(3, 172, 172);
+  transition: 0ms;
+}
+
+
+textarea.box, textarea {
+  color: #000000;
+  resize: none;
+}
+

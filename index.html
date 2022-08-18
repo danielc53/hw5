@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/style.css" />
+    <title>Work Day Scheduler</title>
+  </head>
+<!---->
+  <body>
+    <header class="jumbotron">
+      <h1 class="display-3">Work Day Scheduler</h1>
+      <p class="lead">A simple calendar app for scheduling your work day</p>
+      <p id="currentDay" class="lead"></p>
+    </header>
+    <wrapper class="wrapper">
+      <container class="flex-container">
+        <div class="box one" id="hour">
+          <div class="flex-child">12AM</div>
+        </div>
+        <textarea class="box two textarea textarea textarea" id="0" rows="3" cols="60" name="name" placeholder="Add an event"></textarea>
+        <div class="box three" id="saveBtn"></div>
+      </container>
+      <container class="flex-container">
+        <div class="box one" id="hour">
+          <div class="flex-child">1AM</div>
+        </div>
+        <textarea class="box two textarea" id="1" rows="3" cols="60" name="name" placeholder="Add an event"></textarea>
+        <div class="box three" id="saveBtn"></div>
+      </container>
+      <container class="flex-container">
+        <div class="box one" id="hour">
+          <div class="flex-child">2AM</div>
+        </div>
+        <textarea class="box two textarea" id="2" rows="3" cols="60" name="name" placeholder="Add an event"></textarea>
+        <div class="box three" id="saveBtn"></div>
+      </container>
+      <container class="flex-container">
+        <div class="box one" id="hour">
+          <div class="flex-child">3AM</div>
+        </div>
+        <textarea class="box two textarea" id="3" rows="3" cols="60" name="name" placeholder="Add an event"></textarea>
+        <div class="box three" id="saveBtn"></div>
+      </container>
+      <container class="flex-container">
+        <div class="box one" id="hour">
+          <div class="flex-child">4AM</div>
+        </div>
+        <textarea class="box two textarea" id="4" rows="3" cols="60" name="name" placeholder="Add an event"></textarea>
+        <div class="box three" id="saveBtn"></div>
+      </container>
+      <container class="flex-container">
+        <div class="box one" id="hour">
+          <div class="flex-child">5AM</div>
+        </div>
+        <textarea class="box two textarea"  id="5" rows="3" cols="60" name="name" placeholder="Add an event"></textarea>
+        <div class="box three" id="saveBtn"></div>
+      </container>
+      <container class="flex-container">
+        <div class="box one" id="hour">
+          <div class="flex-child">6AM</div>
+        </div>
+        <textarea class="box two textarea" id="6" rows="3" cols="60" name="name" placeholder="Add an event"></textarea>
+        <div class="box three" id="saveBtn"></div>
+      </container>
+      <container class="flex-container">
+        <div class="box one" id="hour">
+          <div class="flex-child">7AM</div>
+        </div>
+        <textarea class="box two textarea" id="7" rows="3" cols="60" name="name" placeholder="Add an event"></textarea>
+        <div class="box three" id="saveBtn"></div>
+      </container>
+      <container class="flex-container">
+        <div class="box one" id="hour">
+          <div class="flex-child">8AM</div>
+        </div>
+        <textarea class="box two textarea" id="8" rows="3" cols="60" name="name" placeholder="Add an event"></textarea>
+        <div class="box three" id="saveBtn"></div>
+      </container>
+      <container class="flex-container">
+        <div class="box one" id="hour">
+          <div class="flex-child">9AM</div>
+        </div>
+        <textarea class="box two textarea" id="9" rows="3" cols="60" name="name" placeholder="Add an event"></textarea>
+        <div class="box three" id="saveBtn"></div>
+      </container>
+      <container class="flex-container">
+        <div class="box one" id="hour">
+          <div class="flex-child">10AM</div>
+        </div>
+        <textarea class="box two textarea" id="10" rows="3" cols="60" name="name" placeholder="Add an event"></textarea>
+        <div class="box three" id="saveBtn"></div>
+      </container>
+      <container class="flex-container">
+        <div class="box one" id="hour">
+          <div class="flex-child">11AM</div>
+        </div>
+        <textarea class="box two textarea" id="11" rows="3" cols="60" name="name" placeholder="Add an event"></textarea>
+        <div class="box three" id="saveBtn"></div>
+      </container>
+      <container class="flex-container">
+        <div class="box one" id="hour">
+          <div class="flex-child">12PM</div>
+        </div>
+        <textarea class="box two textarea" id="12" rows="3" cols="60" name="name" placeholder="Add an event"></textarea>
+        <div class="box three" id="saveBtn"></div>
+      </container>
+      <container class="flex-container">
+        <div class="box one" id="hour">
+          <div class="flex-child">1PM</div>
+        </div>
+        <textarea class="box two textarea" id="13" rows="3" cols="60" name="name" placeholder="Add an event"></textarea>
+        <div class="box three" id="saveBtn"></div>
+      </container>
+      <container class="flex-container">
+        <div class="box one" id="hour">
+          <div class="flex-child">2PM</div>
+        </div>
+        <textarea class="box two textarea" id="14" rows="3" cols="60" name="name" placeholder="Add an event"></textarea>
+        <div class="box three" id="saveBtn"></div>
+      </container>
+      <container class="flex-container">
+        <div class="box one" id="hour">
+          <div class="flex-child">3PM</div>
+        </div>
+        <textarea class="box two textarea" id="15" rows="3" cols="60" name="name" placeholder="Add an event"></textarea>
+        <div class="box three" id="saveBtn"></div>
+      </container>
+      <container class="flex-container">
+        <div class="box one" id="hour">
+          <div class="flex-child">4PM</div>
+        </div>
+        <textarea class="box two textarea" id="16" rows="3" cols="60" name="name" placeholder="Add an event"></textarea>
+        <div class="box three" id="saveBtn"></div>
+      </container>
+      <container class="flex-container">
+        <div class="box one" id="hour">
+          <div class="flex-child">5PM</div>
+        </div>
+        <textarea class="box two textarea" id="17" rows="3" cols="60" name="name" placeholder="Add an event"></textarea>
+        <div class="box three" id="saveBtn"></div>
+      </container>
+      <container class="flex-container">
+        <div class="box one" id="hour">
+          <div class="flex-child">6PM</div>
+        </div>
+        <textarea class="box two textarea" id="18" rows="3" cols="60" name="name" placeholder="Add an event"></textarea>
+        <div class="box three" id="saveBtn"></div>
+      </container>
+      <container class="flex-container">
+        <div class="box one" id="hour">
+          <div class="flex-child">7PM</div>
+        </div>
+        <textarea class="box two textarea" id="19" rows="3" cols="60" name="name" placeholder="Add an event"></textarea>
+        <div class="box three" id="saveBtn"></div>
+      </container>
+      <container class="flex-container">
+        <div class="box one" id="hour">
+          <div class="flex-child">8PM</div>
+        </div>
+        <textarea class="box two textarea" id="20" rows="3" cols="60" name="name" placeholder="Add an event"></textarea>
+        <div class="box three" id="saveBtn"></div>
+      </container>
+      <container class="flex-container">
+        <div class="box one" id="hour">
+          <div class="flex-child">9PM</div>
+        </div>
+        <textarea class="box two textarea" id="21" rows="3" cols="60" name="name" placeholder="Add an event"></textarea>
+        <div class="box three" id="saveBtn"></div>
+      </container>
+      <container class="flex-container">
+        <div class="box one" id="hour">
+          <div class="flex-child">10PM</div>
+        </div>
+        <textarea class="box two textarea" id="22" rows="3" cols="60" name="name" placeholder="Add an event"></textarea>
+        <div class="box three" id="saveBtn"></div>
+      </container>
+      <container class="flex-container">
+        <div class="box one" id="hour">
+          <div class="flex-child">11PM</div>
+        </div>
+        <textarea class="box two textarea" id="23" rows="3" cols="60" name="name" placeholder="Add an event"></textarea>
+        <button class="box three" id="saveBtn"></button>
+      </container>
+
+    </wrapper>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://kit.fontawesome.com/544c50676a.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script
+    type="text/javascript"
+    src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.27.0/moment.min.js"
+  ></script>
+    <script type="text/javascript" src="./assets/script.js"></script>
+  </body>
+</html>
